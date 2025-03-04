@@ -162,7 +162,7 @@ ol, ul  {
 }
 
 /*section2*/
-.section_2{
+.section_about_us{
     padding: 120px 0;
 }
 .visually-hidden{
@@ -203,11 +203,11 @@ ol, ul  {
 }
 
 .about_us  li{
-    width: calc(100% - 72px)/4;
+    width: calc((100% - 72px) / 4);
 }
 
 /*section3*/
-.our_team-section{
+.section_our_services{
     background-color: #F4F4FD;
     padding: 120px 0;
 }
@@ -261,10 +261,11 @@ ol, ul  {
 }
 
 /*section4*/
-.our_portfolio{
+.section_our_portfolio{
     padding : 120px 0;
 }
-.our_portfolio > .container{
+.section_our_portfolio 
+.container{
     margin-bottom: 8px;
 }
 .portfolio-list{
