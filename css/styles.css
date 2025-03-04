@@ -4,12 +4,20 @@
 img{
     display: block;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1, 
+h2,
+h3, 
+h4, 
+h5, 
+h6, 
+p 
+{
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-ul, ol {
+ul, 
+ol {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-left: 0;
@@ -35,25 +43,31 @@ h3{
     font-weight: medium;
     font-size:20px;
 }
-a{
+a
+{
     font-size:12px;
     text-decoration: underline;
 }
-ol, ul  {
+ol, 
+ul 
+{
     list-style-type: none;
     
 }
-.section{
+.section
+{
     padding: 188px 0;
     width: 100%;
 }
-.container{
+.container
+{
     width: 1158px;
     margin: 0 auto;
     flex-direction: column;
 }
 /*HEADER*/
-.header{
+.header
+{
     border-bottom: 1px solid #e7e9fc;
 }
 .header-con{
