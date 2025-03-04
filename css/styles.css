@@ -52,15 +52,15 @@ ol, ul  {
     margin: 0 auto;
     flex-direction: column;
 }
-/*header*/
+/*HEADER*/
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
-.header-container{
+.header-con{
     display: flex;
     padding: 0 15px;
 }
-.menu-nav{
+.menu-navigation{
     display: flex;
     align-items: center;
 }
@@ -95,10 +95,12 @@ ol, ul  {
     letter-spacing: 0.02em;
     padding: 24px 0;
 }
-.menu-list:hover, .menu-list:focus{
+.menu-list:hover,
+.menu-list:focus
+{
     color:#404bbf;
 }
-.contact_information{
+.contact_info{
     font-style: normal;
 }
 
@@ -111,59 +113,56 @@ ol, ul  {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contact_list:hover, .contact_list:focus{
+.contact_list:hover,
+.contact_list:focus
+{
     color: #404bbf;
 }
-menu:active{
-    text-decoration: underline;
-    text-decoration-color: #404BBF;
-    color:#404BBF;
-}
 
-/*SLIDER*/
+/*section1*/
 .slider{
-    background-color: #2E2F42;
     text-align: center;
     padding: 188px 0;
+    background-color: #2E2F42;
 
     
 }
-.slider_title{
+.slider_text{
     color:#ffffff;
-    line-height: 1.07;
+    margin:0 auto;
     letter-spacing: 0.02em;
     max-width: 496px;
-    margin:0 auto;
+    line-height: 1.07;
 }
-.blue_button{
+.order_button{
     display: block;
     margin: 0 auto;
     margin-top:48px;
     font-family: "Roboto", sans-serif;
     text-align: center;
+    border: none;
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
     letter-spacing: 0.04em;
     color:white;
     background-color:#4D5AE5;
     font-size:16px;
     font-weight: 500;
     line-height: 1.5;
-    border: none;
-    cursor: pointer;
-    min-width: 169px;
-    height: 56px;
-    border-radius: 4px;
 
 }
 .blue_button:hover{
     background-color: #404BBF;
 }
-.blue_button:focus{
+.order_button:focus{
     background-color: #404BBF;
  
 }
 
-/*ABOUT US*/
-.about-us-section{
+/*section2*/
+.section_2{
     padding: 120px 0;
 }
 .visually-hidden{
@@ -204,10 +203,10 @@ menu:active{
 }
 
 .about_us  li{
-    width: calc(100% - 72)/4;
+    width: calc(100% - 72px)/4;
 }
 
-/*OUR TEAM*/
+/*section3*/
 .our_team-section{
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -261,7 +260,7 @@ menu:active{
     text-align: center;
 }
 
-/*OUR PORTFOLIO*/
+/*section4*/
 .our_portfolio{
     padding : 120px 0;
 }
